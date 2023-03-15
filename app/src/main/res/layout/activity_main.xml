@@ -5,17 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/hitam"
+    android:paddingStart="16dp"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/ET1"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/putih"
         android:ems="10"
         android:hint="@string/ETHint1"
         android:inputType="textPersonName"
+        android:textColor="@color/putih"
         android:textColorHint="@color/putih"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,7 +25,6 @@
         android:id="@+id/Tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:text="@string/tv1"
         android:textColor="@color/putih"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +34,6 @@
         android:id="@+id/radioGroup1"
         android:layout_width="254dp"
         android:layout_height="145dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Tv1">
 
@@ -66,8 +64,6 @@
         android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginTop="4dp"
-        android:paddingLeft="8dp"
         android:text="@string/tswitch"
         android:textColor="@color/putih"
         app:layout_constraintStart_toStartOf="parent"
